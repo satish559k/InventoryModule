@@ -9,7 +9,7 @@ import java.util.concurrent.Executor;
 
 @Configuration
 @EnableAsync
-public class ThredConfig {
+public class ThreadConfig {
 
     @Bean(name = "workerExecutor")
     public Executor workerExecutor() {
